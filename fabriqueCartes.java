@@ -44,7 +44,7 @@ public class FabriqueCartes {
     {
         random = new Random();
         cartes = new PaquetDeCartes();
-        color = new Carte(valeur, Couleur.VERT)
+        color = new Carte(valeur, Couleur.VERT);
 
         Random ch = random;
         int valeur = ch.nextInt(valeur_max + 1);
